@@ -72,7 +72,10 @@ function Game() {
     return (
         <div className='grid place-content-center h-screen'>
             {result === 'lose' ? (
+                <div className='flex flex-col justify-center items-center'>
                     <ReplayButton onReplay={handleReplay} />
+                    <h2 className='text-white text-3xl font-bold mt-8 font-serif'>Score: {userScore}</h2>
+                </div>
             ) : (
                 <>
                     <h1 className='text-white text-3xl font-bold font-serif hover:underline text-center'>Rock Paper Scissors</h1>

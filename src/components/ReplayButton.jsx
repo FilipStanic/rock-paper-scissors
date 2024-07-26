@@ -3,7 +3,7 @@ import React from 'react';
 function ReplayButton({ onReplay }) {
     return (
         <div className='flex flex-col justify-center items-center'>
-            <h1 className='text-white text-5xl font-bold mb-2'>Game Over!</h1>
+            <h1 className='text-white text-5xl font-bold mb-2 font-serif'>Game Over!</h1>
             <svg 
                 onClick={onReplay} 
                 xmlns="http://www.w3.org/2000/svg" 
